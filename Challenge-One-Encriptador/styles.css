@@ -1,0 +1,72 @@
+*{
+    margin: 2PX;
+    padding: 2PX;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f9f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-principal {
+    background: #9ee5e5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh; 
+    border-radius: 10px; 
+    box-shadow: 10px;  
+}
+
+.tarjeta{
+    width: 540px;
+    height: 220px;
+    margin: 10px;
+    background-color:#ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 1px solid #5D5FEF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+   
+}
+
+.error {
+    color:#000000;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+}
+
+button {
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+    color: #ffffff;
+    background:   #4556c3;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+}
+
+.mensaje-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    all: initial;
+    font: inherit;
+    background: transparent;
+    color: #000000;
+    padding: 1em 0.5em;
+}
